@@ -9,6 +9,7 @@ const MealItem = (props)=>{
     const price =`$${props.price.toFixed(2)}`;
 
     const addToCartHnadler = amount => {
+        console.log('hgviu')
         cartCtx.addItem({
           id : props.id,
           name : props.name,
